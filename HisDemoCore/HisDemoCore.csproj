@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net472;netcoreapp3.1</TargetFrameworks>
+    <RootNamespace>HisDemo</RootNamespace>
+    <Version>0.0.0</Version>
+
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\AssemblyInfoCommon.cs" Link="AssemblyInfoCommon.cs" />
+  </ItemGroup>
+
+</Project>
